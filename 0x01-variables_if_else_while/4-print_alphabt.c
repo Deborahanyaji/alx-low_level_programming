@@ -14,7 +14,7 @@ letter <= 'z'
 
 	{
 	if (letter != 'e'
-&& letter, 'q')
+&& letter != 'q')
 	putchar(letter);
 	}
 	putchar('\n');
