@@ -10,7 +10,7 @@ int main(void)
 
 	for (digit1 = 0
 ; digit1 < 8
-: digit1++)
+; digit1++);
 
 	for (digit2 = digit1 + 1
 ; digit2 < 9
@@ -26,7 +26,9 @@ int main(void)
 	if (digit1 == 7
 && digit2 == 8
 && digit3 == 9)
-	continue;
+
+	continue
+;
 
 	putchar(',');
 	putchar(' ');
