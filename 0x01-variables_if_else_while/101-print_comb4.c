@@ -1,11 +1,11 @@
-#include
+#include <stdio.h>
 /**
  * main - number
  *
  * Return: 0
  */
 int main(void)
-}
+{
 	int digit1, digit2, digit3;
 
 	for (digit1 = 0
