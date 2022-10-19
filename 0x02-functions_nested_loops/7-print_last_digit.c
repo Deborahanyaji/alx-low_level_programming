@@ -6,7 +6,8 @@
  */
 int print_last_digit(int n)
 {
-	if (n >= 0 && n <= 98)
+	char number;
+	if (n >= 0; n <= 98; number++)
 		return (n);
 	else
 		return (0);
