@@ -6,9 +6,15 @@
  */
 int print_last_digit(int n)
 {
-	char number;
-	if (n >= 0; n <= 98; number++)
+	int  number;
+	{
+
+	if (n >= '0'
+; n <= '98'
+; number++)
 		return (n);
 	else
 		return (0);
+	}
+	putchar(number);
 }
