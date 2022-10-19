@@ -3,7 +3,7 @@
  * print_to_98 - prints all natural numbers
  * @n: the number to begin counting
  */
-void print_to_98(int n);
+void print_to_98(int n)
 {
 	if (n <= 98)
 	{
