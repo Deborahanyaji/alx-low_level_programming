@@ -5,10 +5,10 @@
  */
 int main(void)
 {
-	int count
+	int count;
 	unsigned long fib1 = fib2 = 1, sum;
 
-	for (count = 0; count < 50; voint++)
+	for (count = 0; count < 50; count++)
 	{
 		sum = fib1 + fib2;
 	printf('%lu', sum);
