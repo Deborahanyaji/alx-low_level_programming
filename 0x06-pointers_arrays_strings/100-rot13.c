@@ -10,12 +10,12 @@ char *rot13(char *strs)
 
 	char *alpha_1 = "
 ABCDEFGHIJKLMNOPQRSTUVWXY
-abcdefghijklmnopqrstuvwxyz"
+abcdefghijklmnopqrstuvwxyz "
 ;
 
-	char *alpha _2 = "
+	char *alpha_2 = "
 NOPQRSTUVWXYZABCDEFGHIJKLM
-nopqrstuvwxyzabcdefghijklm"
+nopqrstuvwxyzabcdefghijklm "
 ;
 
 	int a, b;
@@ -28,7 +28,7 @@ nopqrstuvwxyzabcdefghijklm"
 	{
 	strs[a] = alpha_2[b];
 
-	break;
+		break;
 				}
 			}
 	}
