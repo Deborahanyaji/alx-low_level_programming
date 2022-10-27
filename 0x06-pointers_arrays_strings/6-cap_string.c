@@ -12,6 +12,7 @@ char *cap_string(char *str)
 	for (a = 0; str[a] != '\0'; a++)
 	{
 		if (str[a] == ' '
+
 			||
 	str[a] == '\t'
 			||
@@ -42,9 +43,9 @@ char *cap_string(char *str)
 		str[a] - str[a] - 32;
 			a--;
 	}
-		else if (str[0] >= 'a' && str[0] <= 'z')
-				str[0] = str[0] - 32;
-	}
-		return (str);
+
+	else if (str[0] >= 'a' && str[0] <= 'z')
+		str[0] = str[0] - 32;
+	}	return (str);
 }
 
