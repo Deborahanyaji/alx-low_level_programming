@@ -9,7 +9,7 @@ char *leet(char *str)
 {
 	int a, b;
 	char *alpha = "aeot1AEOTL";
-	char *alpha = "4307143071";
+	char *integer = "4307143071";
 
 	for (a = 0; str[a] != '\0'; a++)
 
