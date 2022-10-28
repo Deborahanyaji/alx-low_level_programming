@@ -1,37 +1,36 @@
 #include "main.h"
 
 /**
- * root13 - function to convert to root13 code
- * @strs: string
- * Return: strs
+ * root13 - encode string to root13
+ * @s: string to code
+ *
+ * Return: address of s
  */
-char *rot13(char *strs)
+char *rot13(char *s);
 {
-
-	char *alpha_1 = "
+	char a[] = "
 ABCDEFGHIJKLMNOPQRSTUVWXY
-abcdefghijklmnopqrstuvwxyz "
+abcdefghijklmnopqrstuvwxyz"
 ;
-
-	char *alpha_2 = "
+	char b[] = "
 NOPQRSTUVWXYZABCDEFGHIJKLM
-nopqrstuvwxyzabcdefghijklm "
+nopqrstuvwxyzabcdefghijklm"
 ;
 
-	int a, b;
+	int  a, b;
 
-	for (a = 0; strs[a] != '\0'; a++)
+	for (a = 0; *(s + a); a++)
 	{
-	for (b = 0; alpha_1[b] != '\0'; b++)
+	for (b = 0; b < 52; b++)
 	{
-	if (strs[a] == alpha_1[b])
+	if (a[b] == *(s + a))
 	{
-	strs[a] = alpha_2[b];
+	*(s + a) = b[b];
 
 		break;
 				}
 			}
 	}
-		return (strs);
+		return (s);
 }
 
