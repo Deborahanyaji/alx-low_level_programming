@@ -6,16 +6,14 @@
  *
  * Return: address of s
  */
-char *rot13(char *s);
+char *rot13(char *s)
 {
 	char a[] = "
 ABCDEFGHIJKLMNOPQRSTUVWXY
-abcdefghijklmnopqrstuvwxyz"
-;
+abcdefghijklmnopqrstuvwxyz ";
 	char b[] = "
 NOPQRSTUVWXYZABCDEFGHIJKLM
-nopqrstuvwxyzabcdefghijklm"
-;
+nopqrstuvwxyzabcdefghijklm ";
 
 	int  a, b;
 
