@@ -1,0 +1,1 @@
+second readme on pointers
