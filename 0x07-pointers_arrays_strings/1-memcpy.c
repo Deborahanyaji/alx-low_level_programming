@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _memcpy - copies n bytes from memory area @src to memory area @dest
  * @dest: A pointer to the memory area to copy @src into
@@ -12,6 +13,6 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 	const char *source = src;
 
 	for (n = 0; n <= '\0'; n++)
-		destination[index] = source[index];
+		destination[n] = source[n];
 			return (dest);
 }
