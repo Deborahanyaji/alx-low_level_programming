@@ -4,7 +4,8 @@
  * root_var - function to compare variable of a number
  * @n: the integer value being tested for root
  * @var: var being tested against n
- */ Return: var for root else -1
+ * Return: var for root else -1
+ */
 int root_var(int n, int var)
 {
 	if (var * var == n)
