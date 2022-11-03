@@ -11,4 +11,5 @@ int is_prime_number(int n);
 int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 int root_var(int n, int var);
+int prime_var(int n, int var);
 #endif
