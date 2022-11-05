@@ -6,7 +6,7 @@
  * @argv: number of variables to calculate
  * Return: 0
  */
-int main(int argc, char, **argv)
+int main(int argc, char **argv)
 {
 	int total, change;
 
@@ -20,7 +20,7 @@ int main(int argc, char, **argv)
 	{
 		if (change - 25 >= 0)
 			change = change - 25;
-		else if ( change - 10 >= 0)
+		else if (change - 10 >= 0)
 			change = change - 10;
 		else if (change - 5 >= 0)
 			change = change - 5;
