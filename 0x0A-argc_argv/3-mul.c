@@ -6,7 +6,7 @@
  * @argv: argument supplied
  * Return: 1 if less than two arg var supplied otherwise 0
  */
-int main(int argc, char, **argv)
+int main(int argc, char **argv)
 {
 	int a = 0, b = 0;
 
